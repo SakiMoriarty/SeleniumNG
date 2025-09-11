@@ -62,7 +62,7 @@ public class BaseTest {
 
     @AfterClass
     public void tearDown(){
-        delay(3000);
+        delay(2000);
         driver.quit();
     }
 }
