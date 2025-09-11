@@ -1,7 +1,7 @@
 package com.demoqa.tests.part3.elements;
 
 import com.demoqa.base.BaseTest;
-import org.testng.Assert;
+import static org.testng.Assert.*;
 import org.testng.annotations.Test;
 
 public class WebTableTest extends BaseTest {
@@ -16,6 +16,6 @@ public class WebTableTest extends BaseTest {
         webTablePage.setAge("34");
         webTablePage.clickSubmitButton();
         String actualAge = webTablePage.getTableAge(email);
-        Assert.assertEquals(actualAge, expectedAge, "Actual and Expected ages Do Not Match");
+        assertEquals(actualAge, expectedAge, "Actual and Expected ages Do Not Match");
     }
 }

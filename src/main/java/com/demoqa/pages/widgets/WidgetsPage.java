@@ -7,8 +7,8 @@ import static utilities.JavaScriptUtility.scrollToElementJS;
 
 public class WidgetsPage extends HomePage {
 
-    private By selectMenuItem = By.xpath("//li[@id='item-8']/span[text()='Select Menu']");
-    private By datePickerMenuItem = By.xpath("//li[@id='item-2']/span[text()='Date Picker']");
+    private final By selectMenuItem = By.xpath("//li[@id='item-8']/span[text()='Select Menu']");
+    private final By datePickerMenuItem = By.xpath("//li[@id='item-2']/span[text()='Date Picker']");
 
     public SelectMenuPage clickSelectMenu(){
         scrollToElementJS(selectMenuItem);

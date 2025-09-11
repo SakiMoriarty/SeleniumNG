@@ -12,7 +12,7 @@ public class BaseTest {
     protected WebDriver driver;
     protected BasePage basePage;
     protected LoginPage loginPage;
-    private String url = "https://www.saucedemo.com";
+    private final String url = "https://www.saucedemo.com";
 
     @BeforeClass
     public void setUp(){

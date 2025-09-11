@@ -6,9 +6,9 @@ import static utilities.DropDownUtility.selectByVisibleText;
 
 public class DatePickerMenuPage extends WidgetsPage{
 
-    private By slectedDateField = By.id("datePickerMonthYearInput");
-    private By monthDropDown = By.cssSelector(".react-datepicker__month-select");
-    private By yearDropDown = By.cssSelector(".react-datepicker__year-select");
+    private final By slectedDateField = By.id("datePickerMonthYearInput");
+    private final By monthDropDown = By.cssSelector(".react-datepicker__month-select");
+    private final By yearDropDown = By.cssSelector(".react-datepicker__year-select");
 
     private By dayValue(String day){
         return By.xpath("//div[contains(@class,'react-datepicker__day react-datepicker__day--')][text()='"+ day +"']");

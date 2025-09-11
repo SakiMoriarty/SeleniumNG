@@ -6,8 +6,8 @@ import static utilities.JavaScriptUtility.scrollToElementJS;
 
 public class LinksPage extends ElementsPage{
 
-    private By badRequestLink = By.id("bad-request");
-    private By responseLink = By.id("linkResponse");
+    private final By badRequestLink = By.id("bad-request");
+    private final By responseLink = By.id("linkResponse");
 
     public void clickBadRequestLink(){
         scrollToElementJS(badRequestLink);

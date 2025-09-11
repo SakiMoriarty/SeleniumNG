@@ -1,7 +1,7 @@
 package com.demoqa.tests.part3.widgets;
 
 import com.demoqa.base.BaseTest;
-import org.testng.Assert;
+import static org.testng.Assert.*;
 import org.testng.annotations.Test;
 
 public class DateTest extends BaseTest {
@@ -20,7 +20,7 @@ public class DateTest extends BaseTest {
 
         String actualDate = datePickerPage.getDate();
         String expectedDate = monthNumber + "/" + day + "/" + year;
-        Assert.assertEquals(actualDate, expectedDate,
+        assertEquals(actualDate, expectedDate,
                 "Actual and Expected Dates Do Not Match");
     }
 }
