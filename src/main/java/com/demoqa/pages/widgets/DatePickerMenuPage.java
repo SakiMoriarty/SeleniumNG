@@ -3,6 +3,7 @@ package com.demoqa.pages.widgets;
 import org.openqa.selenium.By;
 
 import static utilities.DropDownUtility.selectByVisibleText;
+import static utilities.JavaScriptUtility.clickJS;
 
 public class DatePickerMenuPage extends WidgetsPage{
 
@@ -15,7 +16,7 @@ public class DatePickerMenuPage extends WidgetsPage{
     }
 
     public void clickDay(String day){
-        click(dayValue(day));
+        clickJS(dayValue(day));
     }
 
     public boolean isDayInMonth(String day){

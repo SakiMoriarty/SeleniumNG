@@ -13,7 +13,7 @@ public class ModalTest extends BaseTest {
         var modalDialogsPage = afwPage.clickModalDialogs();
         modalDialogsPage.clickSmallModalButton();
         String actualText = modalDialogsPage.getSmallModalText();
-        assertTrue(actualText.contains("small modal"),
+        assertTrue(actualText.contains("Small Modal"),
                 "\n The Message Does Not Contain 'small modal' \n");
         modalDialogsPage.clickCloseButton();
     }
