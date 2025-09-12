@@ -55,6 +55,6 @@ public class PracticeFormPage extends FormsPage{
     }
 
     public void clickSubmitButton(){
-        click(submitButton);
+        clickJS(submitButton);
     }
 }
