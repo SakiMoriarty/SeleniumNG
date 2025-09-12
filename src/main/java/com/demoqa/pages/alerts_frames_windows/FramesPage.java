@@ -9,7 +9,7 @@ public class FramesPage extends Alerts_Frames_WindowsPage{
     private final By textInFrame = By.id("sampleHeading");
     private final String iFrameBigBox = "frame1";
     private final By headerFramesText = By.xpath("//div[@id='app']//h1[text()='Frames']");
-    private final By iFrameSmallBox = By.xpath("//div[@id='frame2Wrapper']/iframe");
+    private final By iFrameSmallBox = By.id("frame2");
 
     public String getTextInBigFrame(){
         switchToBigBox();
