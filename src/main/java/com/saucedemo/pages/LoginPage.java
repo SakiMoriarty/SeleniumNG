@@ -2,6 +2,8 @@ package com.saucedemo.pages;
 
 import com.base.BasePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebElement;
 
 public class LoginPage extends BasePage {
 
@@ -30,6 +32,16 @@ public class LoginPage extends BasePage {
     }
 
     public String getErrorMessage(){
-        return find(errorMessage).getText();
+        try {
+            WebElement element = find(errorMessage);
+            if(element.isDisplayed()){
+                return find(errorMessage).getText();
+            } else {
+                return "Element Not Visible";
+            }
+        } catch (NoSuchElementException e){
+            System.out.println("Element 'errorMessage Not Found' " + e.getMessage());
+            return "Error message Not Found";
+        }
     }
 }
