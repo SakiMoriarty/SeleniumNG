@@ -1,6 +1,6 @@
 package com.demoqa.tests.part4.interactions;
 
-import com.demoqa.base.BaseTest;
+import com.demoqa.BaseTest;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;

@@ -1,7 +1,6 @@
 package com.demoqa.tests.part4.frames;
 
-import com.demoqa.base.BaseTest;
-import com.demoqa.pages.alerts_frames_windows.*;
+import com.demoqa.BaseTest;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;

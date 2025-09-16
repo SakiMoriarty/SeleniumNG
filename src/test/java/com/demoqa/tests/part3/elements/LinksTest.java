@@ -1,6 +1,6 @@
 package com.demoqa.tests.part3.elements;
 
-import com.demoqa.base.BaseTest;
+import com.demoqa.BaseTest;
 import static org.testng.Assert.*;
 import org.testng.annotations.Test;
 

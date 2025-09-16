@@ -1,6 +1,6 @@
 package com.demoqa.tests.part3.javascript;
 
-import com.demoqa.base.BaseTest;
+import com.demoqa.BaseTest;
 import org.testng.annotations.Test;
 
 public class JavaScriptTest extends BaseTest {

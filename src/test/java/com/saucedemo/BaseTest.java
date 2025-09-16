@@ -1,4 +1,4 @@
-package com.saucedemo.base;
+package com.saucedemo;
 
 import com.BasePage;
 import com.saucedemo.pages.LoginPage;
