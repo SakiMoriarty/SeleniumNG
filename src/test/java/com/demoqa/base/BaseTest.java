@@ -1,7 +1,7 @@
 package com.demoqa.base;
 
 import com.demoqa.pages.HomePage;
-import com.base.BasePage;
+import com.BasePage;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -17,9 +17,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.logging.FileHandler.*;
 
-import static com.base.BasePage.delay;
+import static com.BasePage.delay;
 import static utilities.Utility.setUtilityDriver;
 
 public class BaseTest {

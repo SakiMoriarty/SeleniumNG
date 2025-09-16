@@ -1,6 +1,6 @@
 package com.saucedemo.pages;
 
-import com.base.BasePage;
+import com.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;

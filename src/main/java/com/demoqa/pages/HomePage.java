@@ -1,7 +1,7 @@
 package com.demoqa.pages;
 
 import com.demoqa.pages.Forms.FormsPage;
-import com.base.BasePage;
+import com.BasePage;
 import com.demoqa.pages.alerts_frames_windows.Alerts_Frames_WindowsPage;
 import com.demoqa.pages.elements.ElementsPage;
 import com.demoqa.pages.widgets.WidgetsPage;
